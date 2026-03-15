@@ -24,15 +24,16 @@ It wrote the code, ran away, and now the game is unplayable.
    - Keep fixing until all tests pass!
 
 ## 📝 Document Your Experience
-
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+The game's purpose is to be a number-guessing game where players try to guess a secret number within a range based on difficulty, with hints, scoring, and attempt limits, built as a Streamlit web app to investigate and fix intentional glitches. Bugs found included backwards hint messages (e.g., saying "go higher" when the guess was too high), premature "out of attempts" messages, attempts incrementing on invalid guesses, session state not resetting on new games or difficulty changes, and incorrect range handling. Fixes applied involved correcting hint directions and arrows, adjusting attempt counting and loss checks to allow full attempt limits, ensuring session state resets properly, and updating range logic for dynamic difficulty changes.
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+<img src="https://cdn.phototourl.com/uploads/2026-03-15-dfb26825-4c69-42cb-a04a-ee2bb2bebe49.png" width="80%" height="80%" alt="Winning Game"/>
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+Challenge 4: 
+
+<img src="https://cdn.phototourl.com/uploads/2026-03-15-dfb26825-4c69-42cb-a04a-ee2bb2bebe49.png" width="80%" height="80%" alt="Challenge 4"/>
+
